@@ -20,6 +20,10 @@ body {
 	font-family: "Rubik", sans-serif;
 }
 
+P {
+	line-height: 1.7rem;
+}
+
 h1,
 h2,
 h3,
@@ -38,6 +42,12 @@ span {
 
 .container {
 	width: 80%;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.container-md {
+	width: 70%;
 	margin: 0 auto;
 	padding: 0 2rem;
 }
@@ -62,8 +72,18 @@ span {
 	}
 }
 @media screen and (max-width: 768px) {
+	P {
+		line-height: 1.3rem;
+	}
+
 	.container-lg {
 		width: 100%;
+	}
+
+	.container-md {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0 2rem;
 	}
 }
 
