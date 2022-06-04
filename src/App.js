@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import Products from "./components/products/Products";
 import Learn from "./components/learn/Learn";
 import Clients from "./components/clients/Clients";
+import Story from "./components/story/Story";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Products />
 			<Learn />
 			<Clients />
+			<Story />
 		</div>
 	);
 }
