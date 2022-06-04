@@ -1,0 +1,110 @@
+.learn {
+	margin-top: 2rem;
+}
+
+.learn .section1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.learn .section1 .rate {
+	display: flex;
+	gap: 2rem;
+}
+
+.learn .section1 .rate img {
+	width: 80%;
+}
+
+.learn .section1 .rate .rate-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1.5rem;
+}
+
+.rate .rate-info span {
+	width: 10rem;
+}
+
+.learn .section2 {
+	margin-top: 5rem;
+	display: flex;
+	align-items: center;
+}
+
+.learn .section2 .section2-image {
+	flex: 7;
+}
+
+.learn .section2 .instructions {
+	flex: 5;
+}
+
+.learn .section2 .instructions h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.learn .section2 .instructions p {
+	margin-bottom: 1rem;
+}
+
+.learn .section2 img {
+	width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+	.learn .section1 .titles h1 {
+		font-size: 1rem;
+	}
+
+	.learn .section1 .titles h4 {
+		font-size: 0.8rem;
+	}
+
+	.learn .section1 .rate {
+		gap: 0;
+	}
+
+	.learn .section1 .rate .image {
+		width: max-content;
+	}
+
+	.learn .section1 .rate img {
+		width: 3rem;
+		align-self: flex-end;
+		margin-right: 0.7rem;
+	}
+
+	.learn .section1 .rate .rate-info {
+		gap: 0.7rem;
+	}
+
+	.rate .rate-info span {
+		width: 5rem;
+		font-size: 0.7rem;
+	}
+
+	.learn .section2 .section2-image {
+		width: 100%;
+		display: grid;
+		place-items: center;
+	}
+
+	.learn .section2 .section2-image img {
+		width: 50%;
+	}
+	.learn .section2 {
+		flex-direction: column;
+	}
+
+	.learn .section2 .instructions {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}
