@@ -26,7 +26,9 @@ const Nav = () => {
 
 	return (
 		<div className={`nav ${isScroll ? "sticky" : ""}`}>
-			<Logo />
+			<a href="#home">
+				<Logo />
+			</a>
 			<div className={`nav-items ${isOpen ? "active" : ""}`}>
 				<AiOutlineClose className="nav-close" onClick={toggleNav} />
 				<ul>

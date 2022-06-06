@@ -17,9 +17,9 @@ const Footer = () => {
 			<div className="top">
 				{/* reach us section */}
 				<div className="us">
-					<div className="logo">
+					<a href="#home">
 						<Logo />
-					</div>
+					</a>
 					<p className="dark">
 						Nor again is there anyone who loves or pursues or
 						desires to obtain pain of itself.
