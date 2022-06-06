@@ -5,6 +5,7 @@ import Learn from "./components/learn/Learn";
 import Clients from "./components/clients/Clients";
 import Story from "./components/story/Story";
 import Abstract from "./components/abstract/Abstract";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<Clients />
 			<Story />
 			<Abstract />
+			<Footer />
 		</div>
 	);
 }

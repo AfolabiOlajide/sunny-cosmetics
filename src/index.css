@@ -15,6 +15,10 @@
 	--color-dark: #5e5c5c;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: var(--color-bg);
 	font-family: "Rubik", sans-serif;
@@ -38,6 +42,20 @@ a,
 li,
 span {
 	font-family: "Rubik", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.secondary-font {
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+}
+
+.primary-font {
+	font-family: "Tiro Devanagari Sans", sans-serif;
 }
 
 .container {
@@ -64,6 +82,10 @@ span {
 
 .blue {
 	color: rgb(44, 54, 255);
+}
+
+.line {
+	margin: 2rem 0;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,0 +1,24 @@
+.logo h1 {
+	font-family: "Rubik", sans-serif;
+	font-size: 1.5rem;
+	position: relative;
+	width: max-content;
+}
+
+.logo h1 sup {
+	position: absolute;
+	font-family: "Tiro Devanagari Sanskrit", serif;
+	font-size: 0.7rem;
+	top: -10%;
+	right: -25%;
+}
+
+@media screen and (max-width: 768px) {
+	.logo h1 {
+		font-size: 1rem;
+	}
+
+	.logo h1 sup {
+		font-size: 0.5rem;
+	}
+}

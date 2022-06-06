@@ -11,7 +11,7 @@ import "./Header.css";
 
 const Header = () => {
 	return (
-		<div className="header">
+		<div className="header" id="home">
 			<div className="backline">
 				<img src={BackLine} alt="" />
 			</div>

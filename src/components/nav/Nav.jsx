@@ -1,23 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BsCart2, BsPerson, BsSearch } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 
 import "./Nav.css";
+import Logo from "./Logo";
 
 const Nav = () => {
 	const [isOpen, setIsOpen] = useState(false);
+	const [isScroll, setIsScroll] = useState(false);
 
 	const toggleNav = () => {
 		setIsOpen(!isOpen);
 	};
+
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
+			if (window.scrollY > 100) {
+				setIsScroll(true);
+			} else {
+				setIsScroll(false);
+			}
+		});
+	}, []);
+
 	return (
-		<div className="nav">
-			<div className="nav-logo">
-				<h1>
-					SUNNY <sup>TM</sup>
-				</h1>
-			</div>
+		<div className={`nav ${isScroll ? "sticky" : ""}`}>
+			<Logo />
 			<div className={`nav-items ${isOpen ? "active" : ""}`}>
 				<AiOutlineClose className="nav-close" onClick={toggleNav} />
 				<ul>
