@@ -119,10 +119,14 @@
 		list-style-type: none;
 		gap: 2rem;
 	}
-	.nav-items ul li {
+	.nav-items ul a {
+		display: block;
 		width: 100%;
-		padding: 1rem;
 		margin-left: 3rem;
+	}
+
+	.nav-items ul a li {
+		padding: 1rem;
 	}
 
 	.nav-item.active {

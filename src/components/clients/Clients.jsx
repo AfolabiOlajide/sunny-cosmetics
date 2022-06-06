@@ -6,7 +6,7 @@ import "./Clients.css";
 
 const Clients = () => {
 	return (
-		<div className="clients container-lg">
+		<div className="clients container-lg" id="faqs">
 			<p className="dark">SOME OF OUR TRUSTED CLIENTS</p>
 			<div className="client-list">
 				<div className="client-list-img">

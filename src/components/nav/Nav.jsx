@@ -30,11 +30,21 @@ const Nav = () => {
 			<div className={`nav-items ${isOpen ? "active" : ""}`}>
 				<AiOutlineClose className="nav-close" onClick={toggleNav} />
 				<ul>
-					<li className="nav-item active">home</li>
-					<li className="nav-item">about us</li>
-					<li className="nav-item">products</li>
-					<li className="nav-item">faqs</li>
-					<li className="nav-item">contact us</li>
+					<a href="#home" onClick={toggleNav}>
+						<li className="nav-item">home</li>
+					</a>
+					<a href="#about" onClick={toggleNav}>
+						<li className="nav-item">about us</li>
+					</a>
+					<a href="#products" onClick={toggleNav}>
+						<li className="nav-item">products</li>
+					</a>
+					<a href="#faqs" onClick={toggleNav}>
+						<li className="nav-item">faqs</li>
+					</a>
+					<a href="#contact" onClick={toggleNav}>
+						<li className="nav-item">contact us</li>
+					</a>
 				</ul>
 			</div>
 			<div className="nav-icons">

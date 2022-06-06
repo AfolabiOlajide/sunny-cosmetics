@@ -8,10 +8,10 @@ import "./Products.css";
 
 const Products = () => {
 	return (
-		<div className="products container-md">
+		<div className="products container-md" id="products">
 			<div className="about">
 				<h2>Best Cosmetic Products</h2>
-				<p className="dark">
+				<p className="dark" id="about">
 					Launched in 2002, Makeup City has brought renowned
 					international personal care brands under one roof for the
 					first time in Pakistan. from a journey of a few stores, we
